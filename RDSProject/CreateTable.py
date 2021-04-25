@@ -4,11 +4,11 @@ import mysql.connector, os
 SQLpassword = os.environ.get('dbPassword')
  
 # con = mysql.connector.connect(
-#   host="127.0.0.1",
+#   host="#hostname",
 #   port="3306",
 #   user="root",
 #   password=f"{SQLpassword}",
-#   database = 'testPython'
+#   database = '#DBName'
 # )
 
 # cur = con.cursor()
